@@ -6,6 +6,25 @@
     font-weight: 400;
 
 }
+button {
+    border: 0;
+    background: white;
+    cursor: pointer;
+    font-size: 1.6em;
+    font-weight: 400;
+    color: black;
+    padding: 1.3em 1.7em;
+    transition: all 0.3s ease-in-out;
+}
+.topnav .About{
+    border-radius: 0 0 0.5em 0;
+}
+.topnav .Events{
+    border-radius: 0 0 0 0.5em;
+}
+.topnav-right {
+    float: right;
+}
 
 .Landscape {
     width: 100%;
