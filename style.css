@@ -1,0 +1,54 @@
+* {
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    font-weight: 400;
+
+}
+
+.Landscape {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #050f1d;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Portrait {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #090128;    ;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (orientation: landscape) {
+    .Landscape {
+        display: block;
+    }
+    .Portrait {
+        display: none;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .Landscape {
+        display: none;
+    }
+    .Portrait {
+        display: block;
+    }
+}
+    
