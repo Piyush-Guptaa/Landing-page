@@ -6,7 +6,7 @@
     font-weight: 400;
 
 }
-button {
+/* button {
     margin-top: 35vh;
     border: 0;
     background: white;
@@ -25,7 +25,7 @@ button {
 }
 .topnav-right {
     float: right;
-}
+} */
 
 .Landscape {
     width: 100%;
@@ -53,7 +53,7 @@ button {
     background-size: cover;
     background-position: center;
 }
-.social{
+/* .social{
     margin-left: auto;
     margin-right: auto;    
     display: flex;
@@ -62,7 +62,7 @@ button {
 a{
     zoom: 0.16;
     height: fit-content;
-}
+} */
 @media screen and (orientation: landscape) {
     .Landscape {
         display: block;
@@ -70,10 +70,10 @@ a{
     .Portrait {
         display: none;
     }
-    .social{
+    /* .social{
         margin-top: 44vh;
         width: 20%;
-    }
+    } */
 }
 
 @media screen and (orientation: portrait) {
@@ -83,13 +83,13 @@ a{
     .Portrait {
         display: block;
     }
-    button{
+    /* button{
         margin-top: 25vh;
         padding: 0.5em 1em;
     }
     .social{
         margin-top: 59vh;
         width: 55%;
-    }
+    } */
 }
     
